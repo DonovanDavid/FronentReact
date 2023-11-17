@@ -1,15 +1,18 @@
-import React from 'react';
-import Login from './Login/Login';
-import Crud from './crud/crud'
+// App.js
 
-const App = () => {
+import React from 'react';
+import ProvedorTabla from './ProvedorTabla/ProvedorTabla';
+import ModalFormulario from './ModalFormulario/ModalFormulario';
+
+function App() {
   return (
     <div>
-      <h1>Mi Aplicación</h1>
-      <Crud />
+      <ProvedorTabla />
+      <ModalFormulario />
     </div>
   );
-};
+}
 
 export default App;
+
 
